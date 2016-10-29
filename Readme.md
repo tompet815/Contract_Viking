@@ -70,7 +70,8 @@ Seeing as the system will handle a great deal of personal information, the integ
 **Goal**: Customer makes successful rental car booking
 **Stakeholder interests**:
 * Customer - Wants to reserve a car, at a specific location and a specific time
-* Rental company - Wants to ensure as many vehicles as possible gets rented out  
+* Rental company - Wants to ensure as many vehicles as possible gets rented out
+
 **Preconditions**: The customer MUST have a valid driver's license  
 **Minimal guarantees**: Error message: Booking failed  
 **Success guarantees**: Success message: Booking complete  
