@@ -65,9 +65,9 @@ Seeing as the system will handle a great deal of personal information, the integ
 * Database must have multiple backup sources, as ensuring data integrity is of utmost importance
 
 ##Fully dressed use case description for ONE use case
-**Use case name*: Booking through webservice
-**Primary actor**: Customer
-**Goal**: Customer makes successful rental car booking
+**Use case name**: Booking through webservice  
+**Primary actor**: Customer  
+**Goal**: Customer makes successful rental car booking　　
 **Stakeholder interests**:
 * Customer - Wants to reserve a car, at a specific location and a specific time
 * Rental company - Wants to ensure as many vehicles as possible gets rented out
