@@ -170,10 +170,10 @@ Shown below is a representation of the logical database structure.
 ### Class diagram
 ![Class diagram](/images/ClassDiagram.png)
 ![Class diagram](/images/ControllerDiagram.png)
-###Sequence diagrams for "checkCars" and "makeBooking"
+## Sequence diagrams for "checkCars" and "makeBooking"
 ![Sequence diagram](/images/SequenceDiagram.png)
 You may assume that all driver’s licence numbers are valid, as we have not found any service API for driver’s licence validation yet.
 ### State diagram
 ![State diagram](/images/StateDiagram.png)
 ### Relational model
-![Relational model](/images/RelationalModel.png)
+![Relational model](/images/RelationModel.png)
