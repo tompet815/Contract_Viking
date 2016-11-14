@@ -114,27 +114,22 @@ The non-functional requirements have been prioritized for data integrity and pro
 
 ### Specification of services of each of the packages
 #### Components
-_Application component_ provides service that can be used by system user.  
-_Booking component_ provides logic for booking to the applications.  
-_Data access component_ provides provides data to Booking package.  
+Booking Application provides 4 services Make/See/Cancel Booking and Check Cars to two components, Third Party Web and Desktop application
 
 #### Packages
-_UI_ provides visual presentation to the system user.  
-_Form_ handle the inputs from the system user.  
-_Check Cars_ provides information of available cars.  
-_See booking_ provides information of the booking that has been made earlier.  
-_Make booking_ handle booking of a rental car.  
-_Cancel booking_ handle cancelling of the booking that has been made earlier.  
+_UI_ provides visual presentation to the system user.
+_Booking_ provides business logic
+_Data Access_ handles data  
 
 #### Define the principal of interaction between the packages
-_UI_ will have a _Form_ which the system user can insert data for _Check cars_/_See booking_/_Cancel booking_/_Make booking_.  
+_UI_ provides data which the system user has input to Booking.  
 
-_Check cars_/_See booking_/_Cancel booking_/_Make booking_ gets data from _Data access_ component and send the information/message back to _UI_  
+_Booking_ provides business logic using data from _DataAccess_ and give the processed data to _UI_
 
 #### Show it in a architectural interaction diagram
 ![Architectual interaction diagram](/images/SequenceArch.png)
-*1) makeBooking(startDate,endDate,startTime,endTime,pickUpStation,deliveryStation,typeOfCar,driverslicenseNumber,driverName)  
-
+*1) checkCars(pickUpDate,deliverDate, pickupTime,deliveryTime,pickUpStation,deliveryStation,pickUpCity,deliverCity)
+*2) makeBooking(pickUpDate,deliverDate,pickupTime,deliveryTime,pickUpStation,deliveryStation,typeOfCar,driverslicenseNumber,driverName)
 ## Show an implementation of the architecture for one scenario (Technical proof of concept for the architecture) 
 This is a VERY simplified proof of concept architecture of MakeBooking.  
 
@@ -157,7 +152,7 @@ If everything went well in the process the UI will get the “success” message
 
 ## The persistency of the system
 ### ER-model 
-![ERmodel](/images/ER-Model.png)
+![ERmodel](/images/EntityRelationNew.png)
 
 ## Justification of you decisions
 As this project is a very simplified case, we wanted to keep it as simple as possible. Because there is both third party applications and a desktop program - it was obvious to create a facade which can be implemented in any application and call our booking system. The facade should be compared to an API or a web service. This is an simple and easy solution. 
