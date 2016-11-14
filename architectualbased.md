@@ -164,3 +164,16 @@ As this project is a very simplified case, we wanted to keep it as simple as pos
 
 ## Requirements
 ### Brief presentation of the system
+Shown below is a representation of the logical database structure.
+![Logical data model](/images/LogicalDataModel.png)
+## Design specification document
+### Class diagram
+![Class diagram](/images/ClassDiagram.png)
+![Class diagram](/images/ControllerDiagram.png)
+###Sequence diagrams for "checkCars" and "makeBooking"
+![Sequence diagram](/images/SequenceDiagram.png)
+You may assume that all driver’s licence numbers are valid, as we have not found any service API for driver’s licence validation yet.
+### State diagram
+![State diagram](/images/StateDiagram.png)
+### Relational model
+![Relational model](/images/RelationalModel.png)
