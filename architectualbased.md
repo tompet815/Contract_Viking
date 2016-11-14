@@ -162,3 +162,5 @@ If everything went well in the process the UI will get the “success” message
 ## Justification of you decisions
 As this project is a very simplified case, we wanted to keep it as simple as possible. Because there is both third party applications and a desktop program - it was obvious to create a facade which can be implemented in any application and call our booking system. The facade should be compared to an API or a web service. This is an simple and easy solution. 
 
+## Requirements
+### Brief presentation of the system
