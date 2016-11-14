@@ -110,7 +110,7 @@ The non-functional requirements have been prioritized for data integrity and pro
 
 ## System architecture
 ### Package/component diagram with dependencies
-![Component/package diagram](/images/ComponentPackageDiagram.PNG)
+![Component/package diagram](/images/ComponentPackageDiagram.png)
 
 ### Specification of services of each of the packages
 #### Components
@@ -132,7 +132,7 @@ _UI_ will have a _Form_ which the system user can insert data for _Check cars_/_
 _Check cars_/_See booking_/_Cancel booking_/_Make booking_ gets data from _Data access_ component and send the information/message back to _UI_  
 
 #### Show it in a architectural interaction diagram
-![Architectual interaction diagram](/images/ArchitecturalInteractionDiagram.png)
+![Architectual interaction diagram](/images/SequenceArch.png)
 *1) makeBooking(startDate,endDate,startTime,endTime,pickUpStation,deliveryStation,typeOfCar,driverslicenseNumber,driverName)  
 
 ## Show an implementation of the architecture for one scenario (Technical proof of concept for the architecture) 
