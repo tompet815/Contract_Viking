@@ -117,20 +117,22 @@ The non-functional requirements have been prioritized for data integrity and pro
 Booking Application provides 4 services Make/See/Cancel Booking and Check Cars to two components, Third Party Web and Desktop application
 
 #### Packages
-**UI** provides visual presentation to the system user.
-**Booking** provides business logic
-**Data Access** handles data  
+**_UI_** provides visual presentation to the system user.
+**_Booking_** provides business logic
+**_Data Access_** handles data  
 
 #### Define the principal of interaction between the packages
-**UI** provides data which the system user has input to Booking.  
+**_UI_** provides data which the system user has input to Booking.  
 
-**Booking** provides business logic using data from **_DataAccess_** and give the processed data to **_UI_**
+**_Booking_** provides business logic using data from **_DataAccess_** and give the processed data to **_UI_**
 
 #### Show it in a architectural interaction diagram
 ![Architectual interaction diagram](/images/SequenceArch.png)
 
 *1) checkCars(pickUpDate,deliverDate, pickupTime,deliveryTime,pickUpStation,deliveryStation,pickUpCity,deliverCity)
+
 *2) makeBooking(pickUpDate,deliverDate,pickupTime,deliveryTime,pickUpStation,deliveryStation,typeOfCar,driverslicenseNumber,driverName)
+
 ## Show an implementation of the architecture for one scenario (Technical proof of concept for the architecture) 
 This is a VERY simplified proof of concept architecture of MakeBooking.  
 
