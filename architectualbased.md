@@ -166,7 +166,7 @@ Shown below is a representation of the logical database structure.
 ![Logical data model](/images/LogicalDataModel.png)
 ## Design specification document
 ### Class diagram
-![Class diagram](/images/ClassDiagram.png)
+![Class diagram](/images/Design Class Diagram.png)
 ![Class diagram](/images/ControllerDiagram.png)
 ## Sequence diagrams for "checkCars" and "makeBooking"
 ![Sequence diagram](/images/SequenceDiagram.png)
