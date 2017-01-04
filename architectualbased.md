@@ -1,3 +1,8 @@
+[Requirement](#architectual-based-contract-by-viking)
+[Architecture](#system-architecture)
+[Design](#design-specification-document)
+
+
 # Architectual based contract by Viking
 ## Introduction 
 This contract is an assignment written for contract based development, with the main focus on the requirement based subcontracting. The subcontract is based on a car rental company case, which need to get a online booking system developed. The company, named “Faraday” wish to have a web service meant for third party solutions, and through a desktop application meant for employees in the travel agencies.
